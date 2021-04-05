@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF4B4"
+    tools:context=".HondaActivity">
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Honda CR-V รุ่นล่าสุด 1,369,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton7" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="628dp"
+        android:text="Honda Mobilio รุ่นล่าสุด 765,000 บาท "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Honda Civic รุ่นล่าสุด 1,229,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Honda Jazz รุ่นล่าสุด 754,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton9" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Honda City รุ่นล่าสุด 839,000 บาท "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Honda Brio Amaze รุ่นล่าสุด 579,000 บาท "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Honda Brio รุ่นล่าสุด 495,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="208dp"
+        android:text="Honda BR-V รุ่นล่าสุด 835,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textHonda2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:contextClickable="false"
+        android:elegantTextHeight="true"
+        android:freezesText="false"
+        android:rotationX="-25"
+        android:text="Honda"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/honda_accord" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/honda_br_v" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/honda_brio" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/honda_brio_amaze" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/honda_city" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/honda_civic" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/honda_cr_v" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/honda_jazz" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/honda_mobilio" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="148dp"
+        android:text="Honda Accord รุ่นล่าสุด 1,799,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="50dp"
+        android:text="เลือกรุ่นที่ต้องการ"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MasdaActivity">
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Mazda CX-8 รุ่นล่าสุด2,069,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton7" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Mazda MX-5 รุ่นล่าสุด 2,905,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton6" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Mazda Mazda2 รุ่นล่าสุด799,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Mazda Mazda3 รุ่นล่าสุด 1,198,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton9" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Mazda CX-30 รุ่นล่าสุด 1,199,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Mazda CX-3 รุ่นล่าสุด 1,048,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Mazda BT-50 Standard Cab รุ่นล่าสุด 553,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Mazda BT-50 Freestyle Cab รุ่นล่าสุด 832,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/radiobutton" />
+
+    <TextView
+        android:id="@+id/textHonda2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:autoText="false"
+        android:contextClickable="false"
+        android:elegantTextHeight="true"
+        android:freezesText="false"
+        android:rotationX="-25"
+        android:text="Mazda"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mazda_bt_50_double_cab" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/mazda_bt_50_freestyle_cab" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/mazda_bt_50_standard_cab" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/mazda_cx_3" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/mazda_cx_30" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/mazda_mazda2" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/mazda_cx_8" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/mazda_mazda3" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/mazda_mx_5" />
+
+    <RadioButton
+        android:id="@+id/radiobutton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="148dp"
+        android:text="Mazda BT-50 Double Cab รุ่นล่าสุด 1,153,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="50dp"
+        android:text="เลือกรุ่นที่ต้องการ"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculateMainActivity">
+
+    <TextView
+        android:id="@+id/textNumRete2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="220dp"
+        android:text="ราคาผ่อนต่อเดือน"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNumRete" />
+
+    <TextView
+        android:id="@+id/baht6"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:text="%"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textrate"
+        app:layout_constraintTop_toBottomOf="@+id/baht" />
+
+    <TextView
+        android:id="@+id/baht"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:text="%"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texdown"
+        app:layout_constraintTop_toBottomOf="@+id/baht2" />
+
+    <TextView
+        android:id="@+id/baht2"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        android:text="บาท"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/taxPrice"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/baht3"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:text="เดือน"
+        android:textColor="#000000"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/taxdate"
+        app:layout_constraintTop_toBottomOf="@+id/baht6" />
+
+    <EditText
+        android:id="@+id/textrate"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textinterrest"
+        app:layout_constraintTop_toBottomOf="@+id/texdown" />
+
+    <TextView
+        android:id="@+id/textDown"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="220dp"
+        android:text="เงินดาวน์"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPrice" />
+
+    <EditText
+        android:id="@+id/taxPrice"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textPrice"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textinterrest"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="220dp"
+        android:text="ดอกเบี้ย"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDown" />
+
+    <EditText
+        android:id="@+id/texdown"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textDown"
+        app:layout_constraintTop_toBottomOf="@+id/taxPrice" />
+
+    <TextView
+        android:id="@+id/textPrice"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="220dp"
+        android:text="ราคารถ"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/taxdate"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textNumRete"
+        app:layout_constraintTop_toBottomOf="@+id/textrate" />
+
+    <TextView
+        android:id="@+id/textNumRete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="220dp"
+        android:text="ระยะเวลาผ่อนชำระ"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textinterrest" />
+
+    <TextView
+        android:id="@+id/baht4"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:text="บาท"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texresult"
+        app:layout_constraintTop_toBottomOf="@+id/baht3" />
+
+    <TextView
+        android:id="@+id/textAmount"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="คำนวณค่างวด"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bcalcu"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#FF794E"
+        android:text="Calculate"
+        android:textColor="#000000"
+        android:textColorLink="#FF5722"
+        app:layout_constraintEnd_toStartOf="@+id/bclear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texresult"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="40dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toEndOf="@+id/textNumRete2"
+        app:layout_constraintTop_toBottomOf="@+id/taxdate" />
+
+    <Button
+        android:id="@+id/bclear"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="80dp"
+        android:backgroundTint="#F47952"
+        android:text="Clear"
+        android:textColor="#000000"
+        android:textColorHighlight="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bcalcu"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarBrandActivity">
+
+    <Button
+        android:id="@+id/bmazda"
+        android:layout_width="230dp"
+        android:layout_height="140dp"
+        android:text="Mazda"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageMasda"
+        app:layout_constraintTop_toBottomOf="@+id/btoyota"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/bnissan"
+        android:layout_width="230dp"
+        android:layout_height="140dp"
+        android:text="Nissan"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageNissan"
+        app:layout_constraintTop_toBottomOf="@+id/bmazda" />
+
+    <Button
+        android:id="@+id/bhonda"
+        android:layout_width="230dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="120dp"
+        android:background="#FAFAFA"
+        android:text="Honda"
+        android:textColor="#000000"
+        android:textColorLink="#B17979"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageHonda"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btoyota"
+        android:layout_width="230dp"
+        android:layout_height="140dp"
+        android:contextClickable="false"
+        android:text="Toyota"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageToyota"
+        app:layout_constraintTop_toBottomOf="@+id/bhonda"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textBrand3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:autoText="false"
+        android:contextClickable="false"
+        android:elegantTextHeight="true"
+        android:freezesText="false"
+        android:rotationX="-25"
+        android:text="Car Brand"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteY="102dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageHonda"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBrand3"
+        app:srcCompat="@drawable/honda" />
+
+    <ImageView
+        android:id="@+id/imageNissan"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageMasda"
+        app:srcCompat="@drawable/nissan" />
+
+    <ImageView
+        android:id="@+id/imageToyota"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageHonda"
+        app:srcCompat="@drawable/toyota" />
+
+    <ImageView
+        android:id="@+id/imageMasda"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageToyota"
+        app:srcCompat="@drawable/masda" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

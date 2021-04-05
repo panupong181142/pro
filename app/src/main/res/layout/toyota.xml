@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToyotaActivity">
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Toyota Majesty รุ่นล่าสุด 2,199,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton7" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Toyota Commuter รุ่นล่าสุด 1,299,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton6" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Toyota Supra รุ่นล่าสุด 5,199,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Toyota HiAce รุ่นล่าสุด 1,079,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton9" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Toyota Hilux รุ่นล่าสุด 1,239,000 บาท "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Toyota Fortuner รุ่นล่าสุด 1,839,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Toyota Corolla Cross รุ่นล่าสุด 1,199,000 บาท "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Toyota Yaris Ativ รุ่นล่าสุด 674,000 บาท "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/radiobutton" />
+
+    <TextView
+        android:id="@+id/textHonda2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:autoText="false"
+        android:contextClickable="false"
+        android:elegantTextHeight="true"
+        android:freezesText="false"
+        android:rotationX="-25"
+        android:text="TOYOTA"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toyota_yaris" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/toyota_yaris_ativ" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/toyota_corolla_cross" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/toyota_fortuner" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/toyota_hilux" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/toyota_supra" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/toyota_majesty" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/toyota_hiace" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/toyota_commuter" />
+
+    <RadioButton
+        android:id="@+id/radiobutton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="148dp"
+        android:text="Toyota Yaris รุ่นล่าสุด 549,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="50dp"
+        android:text="เลือกรุ่นที่ต้องการ"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

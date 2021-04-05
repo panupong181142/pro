@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NissanActivity">
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Nissan Urvan รุ่นล่าสุด 1,216,500 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton7" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Nissan Note รุ่นล่าสุด 640,000 บาท "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton6" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Nissan GT-R รุ่นล่าสุด 13,500,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton5" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Nissan March รุ่นล่าสุด 526,500 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton9" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Nissan Terra รุ่นล่าสุด 1,457,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Nissan LEAF รุ่นล่าสุด 1,990,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Nissan Almera รุ่นล่าสุด 639,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:text="Nissan Kicks รุ่นล่าสุด 1,049,000 บาท "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/radiobutton" />
+
+    <TextView
+        android:id="@+id/textHonda2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:autoText="false"
+        android:contextClickable="false"
+        android:elegantTextHeight="true"
+        android:freezesText="false"
+        android:rotationX="-25"
+        android:text="Nissan"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nissan_navara" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/nissan_kicks" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/nissan_almera" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@drawable/nissan_leaf" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:srcCompat="@drawable/nissan_terra" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:srcCompat="@drawable/nissan_gt_r" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/nissan_urvan" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+        app:srcCompat="@drawable/nissan_march" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/nissan_note" />
+
+    <RadioButton
+        android:id="@+id/radiobutton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="148dp"
+        android:text="Nissan Navara รุ่นล่าสุด 1,149,000 บาท"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="50dp"
+        android:text="เลือกรุ่นที่ต้องการ"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
